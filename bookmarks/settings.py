@@ -104,6 +104,18 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
 
+
+
+'''
+LOGIN_REDIRECT_URL: Tells Django which URL to redirect the user to after a successful login 
+if no next parameter is present in the request
+
+• LOGIN_URL: The URL to redirect the user to log in (for example, views using the login_required
+decorator)
+
+• LOGOUT_URL: The URL to redirect the user to log out
+'''
+
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
@@ -116,6 +128,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/

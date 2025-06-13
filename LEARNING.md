@@ -25,4 +25,18 @@
 
 
 
+- Chapter 6 :
+    - This chapter will cover the following topics:
+    - Creating many-to-many relationships
+    - Customizing behavior for forms
+        - we also need to download the image file and save
+        - python -m pip install requests
+        - Overriding the save() method of a ModelForm
         
+    - Using JavaScript with Django
+    - Building a JavaScript bookmarklet
+    - Generating image thumbnails using easy-thumbnails
+    - Implementing asynchronous HTTP requests with JavaScript and Django
+    - Building infinite scroll pagination        
+
+
